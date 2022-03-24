@@ -297,10 +297,24 @@ padding-bottom: 94px;
   color: var(--text-description);
   margin-bottom: 0;
   font-size: 14px;
-  
-  
-
-  
+}
+.qualiti-icon{
+  width: 270px;
+  height: 120px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+.satellite-icon,
+.clock-icon,
+.diagram-icon,
+.astronaut-icon{
+  width: 70px;
+  height: 70px;
 }
 /*work*/
 
