@@ -9,7 +9,10 @@
   --logo-color: #000000;
   --header-border-color: #ececec; 
   --portfolio-line-border: #eeeeee;
+  --client-color:#afb1b8;
+
   --item-gap: 30px
+  
 }
 ul {
   list-style: none;
@@ -395,6 +398,51 @@ letter-spacing: 00.03em;
   font-weight: 400px;
   line-height: 1.71;
   letter-spacing: 00.03em;
+}
+/*section-client*/
+.section-client{
+padding-top: 94px;
+  padding-bottom: 94px;
+}
+.client-title{
+  color: var(--title-text);
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.client-item{
+  border: 1px solid var(--client-color);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+.client-item + .client-item {
+  margin-left: 30px;
+}
+.client-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.client-link {
+  display: inline-block;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  width: 170px;
+  height: 91px;
+  fill:var(--client-color);
+}
+.client-link:hover{
+  fill: var(--button-filter);
+}
+.icon-Client-1,
+.icon-Client-2{
+  width: 106px;
+  height: 60px;
 }
 /*portfolio*/
 .work-example{
