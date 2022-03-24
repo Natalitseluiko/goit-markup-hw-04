@@ -137,7 +137,22 @@ margin-left: auto;
 
 .site-nav-link link.current{
 color: var(--button-filter);
+
 }
+
+.envelope-icon{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.smartphone-icon{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /*auth-nav*/
 
 .contact-list{
