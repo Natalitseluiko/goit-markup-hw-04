@@ -440,9 +440,17 @@ padding-top: 94px;
   fill: var(--button-filter);
 }
 .icon-Client-1,
-.icon-Client-2{
+.icon-Client-2,
+.icon-Client-3,
+.icon-Client-4,
+.icon-Client-5{
   width: 106px;
   height: 60px;
+}
+.list-client{
+  display: flex;
+  margin-left: calc((-1) * var(--item-gap));
+
 }
 /*portfolio*/
 .work-example{
