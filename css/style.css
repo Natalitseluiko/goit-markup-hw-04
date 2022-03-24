@@ -208,6 +208,7 @@ color: var(--button-filter);
   color: var(--wite-color);
   background-color: var(--second-bg);
   text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../img/img-hero-bg.jpg);
   
 }
 .hero > .conteiner{
