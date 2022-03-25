@@ -249,6 +249,11 @@ color: var(--button-filter);
   .footer-logo-list{
     text-align: center;
   }
+  .footer-div{
+  
+    padding-top: 70px;
+    margin-left: 70px;
+  }
   .footer-instagram,
 .footer-twitter,
 .footer-facebook,
